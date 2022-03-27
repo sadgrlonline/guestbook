@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'sans-serif';
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#submitForm {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="url"] {
+    height: 25px;
+    font-size: 1em;
+    font-family: 'sans-serif';
+    padding: 5px;
+}
+
+.comment {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
